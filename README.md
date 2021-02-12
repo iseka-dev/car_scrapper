@@ -14,7 +14,7 @@ First of two start the scrapper and search for Dodge, Ferrari, Lamborghini and N
 Data is saved in database. No repeated cars admitted. 
 
 Second endpoint returns a list of cars which can be filtered using the next parameters in the url:
-- key 'brand': let you choose among the mentioned car makers.
-- key 'model': ley you search only the mentioned models. Brand is not necessary, unless a model name is repeated from one manufacturer to another.
-- keys 'start_year' and 'end_year' that let the user search for cars in a range.
-- keys 'low_price' and 'high_price' that let the user choose a prince range to search for.
+- key 'brand': let you choose among the mentioned car makers: 'dodge', 'ferrari', 'nissan', 'lamborghini'.
+- key 'model': let you search only the mentioned models. Brand is not necessary, unless a model name is repeated from one manufacturer to another.
+- keys 'start_year' and 'end_year' that let the user search for cars in a range. Both should be four digits numbers and being always lower the 'start_year'.
+- keys 'low_price' and 'high_price' that let the user choose a prince range to search for. 'low_price' must be always lower.
