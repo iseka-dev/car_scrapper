@@ -1,0 +1,48 @@
+name: nz
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - asgiref=3.3.1=pyhd8ed1ab_0
+  - beautifulsoup4=4.9.3=pyhb0f4dca_0
+  - brotlipy=0.7.0=py36h8f6f2f9_1001
+  - ca-certificates=2020.12.5=ha878542_0
+  - certifi=2020.12.5=py36h5fab9bb_1
+  - cffi=1.14.4=py36hc120d54_1
+  - chardet=4.0.0=py36h5fab9bb_1
+  - cryptography=3.4.4=py36hc39840e_0
+  - django=3.1.6=pyhd8ed1ab_0
+  - djangorestframework=3.12.2=pyhd8ed1ab_0
+  - idna=2.10=pyh9f0ad1d_0
+  - ld_impl_linux-64=2.35.1=hea4e1c9_2
+  - libffi=3.3=h58526e2_2
+  - libgcc-ng=9.3.0=h2828fa1_18
+  - libgomp=9.3.0=h2828fa1_18
+  - libstdcxx-ng=9.3.0=h6de172a_18
+  - ncurses=6.2=h58526e2_4
+  - openssl=1.1.1i=h7f98852_0
+  - pip=21.0.1=pyhd8ed1ab_0
+  - pycparser=2.20=pyh9f0ad1d_2
+  - pyopenssl=20.0.1=pyhd8ed1ab_0
+  - pysocks=1.7.1=py36h5fab9bb_3
+  - python=3.6.12=hffdb5ce_0_cpython
+  - python_abi=3.6=1_cp36m
+  - pytz=2021.1=pyhd8ed1ab_0
+  - readline=8.0=he28a2e2_2
+  - requests=2.25.1=pyhd3deb0d_0
+  - selenium=3.141.0=py36h8f6f2f9_1002
+  - setuptools=49.6.0=py36h5fab9bb_3
+  - six=1.15.0=pyh9f0ad1d_0
+  - soupsieve=2.0.1=py_1
+  - sqlite=3.34.0=h74cdb3f_0
+  - sqlparse=0.4.1=pyh9f0ad1d_0
+  - tk=8.6.10=h21135ba_1
+  - tzdata=2021a=he74cb21_0
+  - urllib3=1.26.3=pyhd8ed1ab_0
+  - wheel=0.36.2=pyhd3deb0d_0
+  - xz=5.2.5=h516909a_1
+  - zlib=1.2.11=h516909a_1010
+prefix: /home/horacio/anaconda3/envs/nz
